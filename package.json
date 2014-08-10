@@ -33,7 +33,7 @@
     "grunt-releaseable": "0.0.8"
   },
   "scripts": {
-    "prepublish": "node -e \"require('grunt').tasks(['prepublish']);\"",
+    "prepublish": "node -e \"require('grunt').tasks(['prepublish']);\" || true",
     "start": "node -e \"require('grunt').tasks(['default']);\"",
     "test": "node -e \"require('grunt').tasks(['test']);\""
   },
@@ -43,5 +43,7 @@
   ],
   "license": "Apache",
   "readmeFilename": "README.md",
-  "dependencies": {}
+  "dependencies": {
+    "http-server": "0.6.x"
+  }
 }
