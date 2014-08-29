@@ -11,7 +11,7 @@ ensure you have the following installed and set up on your system
 then do the following:
 
 * `npm install`
-* `grunt grunt assemble:dev concat uglify sass copy`
+* `grunt assemble:dev concat uglify sass copy`
 * `cp manifest-sample.yml manifest.yml`
 * [edit manifest.yml and change the host property]
 * `cf push`
