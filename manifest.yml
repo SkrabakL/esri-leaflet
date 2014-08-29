@@ -1,6 +1,0 @@
----
-applications:
-- name:    esri-examples
-  host:    esri-examples-pjm
-  memory:  128M
-  command: sh cf-start.sh

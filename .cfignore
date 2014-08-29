@@ -1,5 +1,6 @@
 .sass-cache
 dist
 node_modules
+site/source
 spec
 src

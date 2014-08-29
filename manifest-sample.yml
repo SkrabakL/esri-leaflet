@@ -1,0 +1,6 @@
+---
+applications:
+- name:      esri-examples
+  host:      esri-examples-<something unique>
+  memory:    64M
+  buildpack: https://github.com/drnic/staticfile-buildpack.git

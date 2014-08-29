@@ -1,3 +1,25 @@
+# usage on Cloud Foundry
+
+ensure you have the following installed and set up on your system
+
+* ruby
+* sass
+* node
+* grunt
+* cf
+
+then do the following:
+
+* `npm install`
+* `grunt grunt assemble:dev concat uglify sass copy`
+* `cp manifest-sample.yml manifest.yml`
+* [edit manifest.yml and change the host property]
+* `cf push`
+
+this will create an `esri-examples` app in your Cloud Foundry org/space
+
+
+
 # Esri Leaflet
 
 [![Build Status](https://travis-ci.org/Esri/esri-leaflet.svg)](https://travis-ci.org/Esri/esri-leaflet)
